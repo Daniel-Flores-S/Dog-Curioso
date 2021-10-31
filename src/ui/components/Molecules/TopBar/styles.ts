@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
     background-color: #074b7c;
@@ -12,12 +12,11 @@ export const Section = styled.div`
     display: flex;
     height: 100%;
     justify-content: center;
-
 `
 export const Text = styled.span`
+    cursor: pointer;
     color: #fff;
     font-size: 0.74em;
-    text-align: center;
-
-`;
-
+    font-weight: bold;
+    margin: auto;
+`
