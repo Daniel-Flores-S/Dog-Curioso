@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { Container, AppList, AppListItem, Logo } from './styles'
+import Link from 'next/link'
+import { Container, AppList, AppListItem, Logo, ImgUser } from './styles'
 
 export const NavBar = () => {
     return (
@@ -23,8 +23,8 @@ export const NavBar = () => {
                     <Link href="/breed">Bem-Estar</Link>
                 </AppListItem>
             </AppList>
-            <Logo
-                src="/img/NavBar/dog-logo.png"
+            <ImgUser
+                src="https://lh3.googleusercontent.com/ogw/ADea4I72_GoPRRdfnFXnugLFYe2ICIlSSjn3iVVIQKrF=s83-c-mo"
                 alt="Logo Dog Curioso
 "
             />

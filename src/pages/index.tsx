@@ -5,6 +5,9 @@ import { GetServerSideProps, GetStaticProps, NextPage } from 'next';
 import { Dog } from '../data/@types/dogs';
 import { TopBar } from '../ui/components/Molecules/TopBar';
 import {NavBar} from '../ui/components/Molecules/NavBar';
+import { Slide } from '../ui/components/Molecules/Slide';
+import { TextSection } from '../ui/components/Atoms/TextSection';
+import { Posts } from '../ui/components/Organisms/Posts'
 
 const Home: NextPage<{ characters: Dog[] }> = ({ characters }) => {
     return (
@@ -21,9 +24,11 @@ const Home: NextPage<{ characters: Dog[] }> = ({ characters }) => {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
             <TopBar />
             <NavBar />
+         
+            <Posts />
+
         </div>
     )
 }
